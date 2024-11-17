@@ -138,3 +138,5 @@ if __name__ == "__main__":
     sorted_keys, json_file_paths = get_labels_and_json_path(input_folder)
     create_yaml(output_folder, sorted_keys)
     labelme_to_yolo(json_file_paths, output_folder, sorted_keys, split_rate)
+
+# python convert_folder.py extract datasets 0.8
